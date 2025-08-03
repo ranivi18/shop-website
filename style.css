@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f8f9fa;
+    line-height: 1.6;
+    padding: 20px;
+    color:#333;
+}
+header{
+   text-align: center;
+    background: #4cAF50;
+    color: white;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+section h2{
+    color:#4cAF50;
+    margin-bottom: 10px;
+}
+section{
+  background-color: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb();
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+ul{
+    list-style: square;
+    padding-left: 20px;
+}
+.whatsapp-btn{
+  background-color: #25D366;
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.whatsapp-btn:hover{
+    background-color:#1DA851;
+}
+footer{
+   
+    text-align: center;
+    padding: 15px;
+    background-color: #4cAF50;
+    color: white;
+    border-radius: 8px;
+
+
+}
+#products .product-list {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 250px;
+  transition: transform 0.3s;
+}
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.product img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  color: #4CAF50;
+}
+/* Make sure your layout works on smaller devices */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  ul {
+    padding-left: 20px;
+  }
+
+  .whatsapp-btn {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}
+nav a{
+    text-decoration: none;
+    color:rgb(67, 111, 123);
+    font-weight: bold;
+    padding:0 10px;
+}
+img {
+  margin: 10px;
+  border-radius: 10px;
+}
+
+
